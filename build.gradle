@@ -1,0 +1,14 @@
+buildscript {
+    repositories {
+        maven {
+            url "https://dl.bintray.com/yoka/maven"
+        }
+        jcenter()
+    }
+    dependencies {
+        classpath "io.shlxs:spring-boot-gradle-plugin:0.1.2"
+    }
+}
+apply plugin: "io.shlxs.gradle.plugins.spring-boot-gradle-plugin"
+
+logger.lifecycle('springBootVersion: ' + springBootVersion)
