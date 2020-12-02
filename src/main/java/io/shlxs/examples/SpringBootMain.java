@@ -1,8 +1,12 @@
 package io.shlxs.examples;
 
-class SpringBootMain{
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringBootMain{
 
     public static void main(String[] args){
-        new LombokPojo().setA("a");
+        SpringApplication.run(SpringBootMain.class, args);
     }
 }

@@ -6,7 +6,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath "io.shlxs:spring-boot-gradle-plugin:0.1.2"
+        classpath "io.shlxs:spring-boot-gradle-plugin:0.1.3"
     }
 }
 apply plugin: "io.shlxs.gradle.plugins.spring-boot-gradle-plugin"
